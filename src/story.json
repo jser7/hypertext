@@ -1,0 +1,649 @@
+{
+  "intro": {
+    "text": "You find yourself lounging at your friend's house after a long day. The air smells faintly of incense, and the room is dimly lit by fairy lights. \n\nHis mum enters with a soft smile, holding a tray. 'Would you like some tea?' she asks, her voice warm and soothing. There's something oddly inviting about the offer, almost as if this cup could change your life forever.",
+    "choices": [
+      {
+        "text": "Drink the tea",
+        "next": "drinkTea"
+      },
+      {
+        "text": "Politely refuse and go to sleep",
+        "next": "dontDrinkTea"
+      },
+      {
+        "text": "Request coffee instead",
+        "next": "requestCoffee"
+      }
+    ]
+  },
+  "fakeIntro": {
+    "text": "You find yourself lounging at your friend's house after a long day. The air smells faintly of incense, and the room is dimly lit by fairy lights. \n\nHis mum enters with a soft smile, holding a tray. 'Would you like some tea?' she asks, her voice warm and soothing. There's something oddly inviting about the offer, almost as if this cup could change your life forever.",
+    "choices": [
+      {
+        "text": "Refuse to drink any of them, and eat some organic plants you find in the kitchen.",
+        "next": "eatThePlants"
+      },
+      {
+        "text": "Politely refuse and go to sleep",
+        "next": "dontDrinkTea"
+      },
+      {
+        "text": "Request coffee instead",
+        "next": "requestCoffee"
+      }
+    ]
+  },
+  "eatThePlants": {
+    "text": "As you feel yourself digesting the plants, you close your eyes for a brief moment. You wake up in a utopian Jade City. You approach the first person you can find and ask him where you are, and he tells you that you're in the City of the Gods.",
+    "choices": [
+      {
+        "text": "You go to the Jade Palace.",
+        "next": "jadePalace"
+      },
+      {
+        "text": "You have a panic attack.",
+        "next": "powerPanicAttack"
+      }
+    ]
+  },
+  "powerPanicAttack": {
+    "text": "You have a panic attack and release a mysterious explosion of energy which destroys the Jade City, kills the gods, and kills you.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "goodEnding"
+      }
+    ]
+  },
+  "jadePalace": {
+    "text": "You arrive at the Jade Palace and are greeted by 12 foot tall Minotaurs who are guarding the entrance. As you find yourself baffled and in awe of what you're seeing, one of the Minotaurs charges you. Just before the Minotaur bashes through you, a pristine man opens the door and says he's been expecting you.",
+    "choices": [
+      {
+        "text": "You follow him into the Jade Palace.",
+        "next": "enterJadePalace"
+      },
+      {
+        "text": "You punch the Minotaur.",
+        "next": "punchMinotaur"
+      }
+    ]
+  },
+  "enterJadePalace": {
+    "text": "You follow the man into the Jade Palace, and he walks you through the halls. On every wall there's pictures of mythical gods and entities that you always thought were just myth. There's statues lining each hallway resembling people you've walked past in the Jade City.",
+    "choices": [
+      {
+        "text": "Follow him into the main throne room.",
+        "next": "enterThroneRoom"
+      },
+      {
+        "text": "You run way in fear.",
+        "next": "runAwayJadeCity"
+      }
+    ]
+  },
+  "enterThroneRoom": {
+    "text": "You enter the throne room, and see a massive throne of pure white marble mixed with jade. There's a collection of royal crowns on the floor next to the throne. The man tells you that this will be yours one day.",
+    "choices": [
+      {
+        "text": "Ask him to explain.",
+        "next": "getAnExplanation"
+      },
+      {
+        "text": "Sit on the throne.",
+        "next": "sitOnThrone"
+      }
+    ]
+  },
+  "getAnExplanation": {
+    "text": "You demand an explanation, and he tells you that you're the Harbringer of Death & Destruction, and you're the biggest part of the Grand Prophecy. The Grand Prophecy foretells that one day, a time travelling human will be born, and on his journeys he will unlock and train his powers of destruction unknowingly.",
+    "choices": [
+      {
+        "text": "Ask why that means you'll get the throne.",
+        "next": "getAnExplanation2"
+      }
+    ]
+  },
+  "getAnExplanation2": {
+    "text": "He tells you that the Grand Prophecy finishes with the Harbringer of Destruction working alongside him, the God of Creation, until eventually they have the final battle, where the Harbringer will win, and the universe will be destroyed while the Harbringer sits on his throne.",
+    "choices": [
+      {
+        "text": "Accept your fate.",
+        "next": "acceptHarbringerFate"
+      }
+    ]
+  },
+  "acceptHarbringerFate": {
+    "text": "You accept the fate of the prophecy, living out amongst the Gods for 2 trillion years, bringing destruction to every era of civilisation throughout the universe along the way. One day, the God of Creation has a child with an entity who's civilisation you're destined to destroy. He is furious with this, and travels down to the civilisation to protect her.",
+    "choices": [
+      {
+        "text": "Travel down to Planet Kotoit.",
+        "next": "faceGod"
+      }
+    ]
+  },
+  "faceGod": {
+    "text": "You land on Planet Kotoit, and the God immediately rushes you, creating several 1.2 thousand foot tall monsters to distract you. He teleports behind you while you're striking down the monsters, and kicks you in the back and you fall to the floor.",
+    "choices": [
+      {
+        "text": "Teleport behind him and blast him in the back with a beam.",
+        "next": "teleportBehind"
+      },
+      {
+        "text": "Create a massive explosion.",
+        "next": "createExplosion"
+      }
+    ]
+  },
+  "createExplosion": {
+    "text": "You launch a nuclear energy beam at God, knocking him out. You walk over to him and beat him to a pulp.",
+    "choices": [
+      {
+        "text": "Destroy the Universe",
+        "next": "destroyUniverse"
+      }
+    ]
+  },
+  "teleportBehind": {
+    "text": "You teleport behind him, blasting him with a purple beam of destruction and unimaginably exuberant power. The beam sends the God straight through the planet and out onto the other side. He flies at light speed back to you, punching you with insane force. You go flying around the planet 13000 times in 6 seconds.",
+    "choices": [
+      {
+        "text": "Direct yourself to fly straight into the planet.",
+        "next": "flyIntoPlanet"
+      },
+      {
+        "text": "Grab one of the 1.2 thousand foot monsters by the leg and swing it at the god.",
+        "next": "swingMonster"
+      }
+    ]
+  },
+  "swingMonster": {
+    "text": "You grab the monster's toe and swing it around, shooting the gargantuan being at the God at light speed. He finally gasps his last breath.",
+    "choices": [
+      {
+        "text": "Destroy the Universe",
+        "next": "destroyUniverse"
+      }
+    ]
+  },
+  "flyIntoPlanet": {
+    "text": "You launch into the planet at light speed travelling straight into the core where you stop yourself. The god comes into the core with you, and you have a legendary battle, with each punch creating earthquakes and shockwaves around the planet. You land a final blow on the God, and as he falls into the core being incinerated, you realise you've finally completed the prophecy.",
+    "choices": [
+      {
+        "text": "Destroy the Universe",
+        "next": "destroyUniverse"
+      }
+    ]
+  },
+  "destroyUniverse": {
+    "text": "As you go home to the Jade City and sit back down on your throne to destroy everything, you're greeted by the deity of TikTok, who stops you and stops the prophecy, killing you instead.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "trueEnding"
+      }
+    ]
+  },
+  "sitOnThrone": {
+    "text": "You run to the throne and sit down on it before the man can even let out a scream of horror. As you sit down, you're enveloped in a white aura, and the man shrieks in pain. You hear the screams of people outside, and you feel a rush of power through your bones. The man tells you that by sitting on the Throne before you've been initiated, you've stolen all the gods power unwillingly.",
+    "choices": [
+      {
+        "text": "Use your new powers to wreak havoc.",
+        "next": "wreakHavoc"
+      },
+      {
+        "text": "Apologise prefusely.",
+        "next": "apologisePrefusely"
+      }
+    ]
+  },
+  "apologisePrefusely": {
+    "text": "As you're apologising, the Gods turn on you and want their power back. Thousands of Gods rush you at once and take their power back, leaving you dead.",
+    "choices": [
+      {
+        "text": "Restart.",
+        "next": "badEnding"
+      }
+    ]
+  },
+  "wreakHavoc": {
+    "text": "You decide to use all of the God's powers to destroy the Jade City, feeling upset at the gods. You throw bolts of lightning at the Gods while you look down from above. Hearing their screams gives you dopamine, and you continue until the city is raized to the ground. As you're attacking the last God, Zeus, a being of light appears behind you. You turn around and see the Deity of TikTok, the original god. He simply clicks his fingers and you disappear from existence forever.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "badEnding"
+      }
+    ]
+  },
+  "runAwayJadeCity": {
+    "text": "As you're running away, you accidentily push over a vase. As it smashes on the ground, it releases the biggest blast you've ever seen of pure energy. The Jade City shakes, causing a commotion, and you run outside to a large crowd.",
+    "choices": [
+      {
+        "text": "Stand in awe.",
+        "next": "standInAwe"
+      },
+      {
+        "text": "You run through the crowd.",
+        "next": "runAwayJadeCity2"
+      }
+    ]
+  },
+  "runAwayJadeCity2": {
+    "text": "You run through the crowd, but you see Medusa, and foolishly you look straight at her. You turn into stone.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "badEnding"
+      }
+    ]
+  },
+  "standInAwe": {
+    "text": "You stand at the top of the Jade Palace staircase in awe, looking out onto a crowd of Gods. The man comes back from behind you, puts his arm on your shoulder, and announces to the crowd that the Harbringer has arrived. The crowd erupts in cheer, and you follow the man back into the Jade Palace throne room.",
+    "choices": [
+      {
+        "text": "Enter throne room.",
+        "next": "enterThroneRoom"
+      }
+    ]
+  },
+  "punchMinotaur": {
+    "text": "You ignore the man and decide to punch the Minotaur. He attempts to kick you, but just before his foot reaches you, the man waiting in the doorway for you lifts his arm, and the Minotaur explodes. You're disgusted, but also in shock. You ask the man how he did that, and he tells you that everyone in the Jade City has similar abilities, including you.",
+    "choices": [
+      {
+        "text": "You follow him into the Jade Palace.",
+        "next": "enterJadePalace"
+      }
+    ]
+  },
+  "drinkTea": {
+    "text": "As soon as the warm tea touches your lips, the world begins to blur. Colors swirl and the sounds around you fade until there's nothing but silence. \n\nWhen you open your eyes, you're lying in the hot sand of an ancient desert. The pyramids loom in the distance, and the air is thick with the scent of spices and the sound of ancient languages. \n\nYou're in Egypt—31 BC, the height of Cleopatra's reign. But how did you get here? And more importantly, what do you do now?",
+    "choices": [
+      {
+        "text": "Ignore the Egyptians and boldly show them TikToks",
+        "next": "ignoreEgyptians"
+      },
+      {
+        "text": "Panic and embarrass yourself",
+        "next": "terrified"
+      }
+    ]
+  },
+  "dontDrinkTea": {
+    "text": "You decline the tea and drift off to sleep, unaware that your fate is already sealed. \n\nWhen you wake up, the air is cold and harsh. You're standing in the heart of ancient Rome, 475 AD, just one year before the Western Roman Empire collapses. \n\nThe streets are bustling with citizens, but there's a palpable sense of decay in the air—something big is coming, and you're right in the middle of it.",
+    "choices": [
+      {
+        "text": "Pull out your phone and show TikToks to Roman soldiers",
+        "next": "showTiktoksToRomans"
+      },
+      {
+        "text": "Blend into Roman society, hoping to avoid trouble",
+        "next": "blendInWithRomans"
+      }
+    ]
+  },
+  "requestCoffee": {
+    "text": "You ask for coffee instead, and after a few sips, the world melts away. \n\nWhen your eyes snap open, you're no longer in your friend's cozy home. Instead, you're standing amidst the ruins of what used to be Houston, Texas. \n\nThe year is 2066, one year after the collapse of the New World Order—an alliance that controlled the planet. The sky is dark, ash falls like snow, and people roam the streets scavenging for food. \n\nYou're in a dystopian future, and your phone might be the most powerful thing you have.",
+    "choices": [
+      {
+        "text": "Join a group of survivors and show them TikToks",
+        "next": "joinSurvivorGroup"
+      },
+      {
+        "text": "Hide your phone and cautiously explore",
+        "next": "keepPhoneHidden"
+      }
+    ]
+  },
+  "ignoreEgyptians": {
+    "text": "With a laugh, you whip out your phone and show the Egyptians your TikToks. \n\nThe locals gasp in awe as they gather around, eyes wide in amazement. The device in your hand seems to possess unimaginable power. They murmur among themselves, their faces painted with wonder. \n\nWhat should you show them next?",
+    "choices": [
+      {
+        "text": "Show them videos of modern life",
+        "next": "shareModernLife"
+      },
+      {
+        "text": "Play some funny memes",
+        "next": "showMemes"
+      }
+    ]
+  },
+  "terrified": {
+    "text": "You panic and lose control, wetting yourself in sheer terror. \n\nThe Egyptians around you begin to whisper, assuming your actions are some kind of divine message. They bring you before Cleopatra herself, who watches you with curious, calculating eyes. \n\nYou know you need to say something—anything—or risk being seen as a threat to the empire.",
+    "choices": [
+      {
+        "text": "Convince Cleopatra you're a time traveler",
+        "next": "convinceCleopatra"
+      },
+      {
+        "text": "Attempt a daring escape",
+        "next": "tryToEscape"
+      }
+    ]
+  },
+  "convinceCleopatra": {
+    "text": "You manage to explain, using broken ancient Egyptian and gestures, that you're a traveler from a faraway time. Cleopatra listens intently, intrigued. \n\nShe orders her advisors to bring you closer and begins asking about your world. How much do you reveal?",
+    "choices": [
+      {
+        "text": "Tell her everything",
+        "next": "tellHerEverything"
+      },
+      {
+        "text": "Keep your knowledge vague",
+        "next": "keepItVague"
+      }
+    ]
+  },
+  "tellHerEverything": {
+    "text": "You reveal everything—TikTok, the internet, the future. Cleopatra seems impressed but worried. She quickly orders her advisors to start recording your words, planning to use your knowledge for her empire’s advantage. \n\nAs the months pass, you watch Egypt attempt to build technology based on your descriptions, but they fail, and chaos spreads through the empire.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "badEnding"
+      }
+    ]
+  },
+  "keepItVague": {
+    "text": "You decide to keep your answers vague, not wanting to cause too much disruption. Cleopatra seems disappointed but still intrigued. She eventually lets you go, and you live out your days in relative peace, witnessing the collapse of the Egyptian empire from the shadows.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "goodEnding"
+      }
+    ]
+  },
+  "showTiktoksToRomans": {
+    "text": "With a mischievous grin, you show the Roman soldiers your TikToks. \n\nThey laugh and become instantly obsessed, passing your phone around as if it were a divine artifact. They can’t get enough of the dances, pranks, and challenges. \n\nBut what happens when soldiers abandon their duties for entertainment?",
+    "choices": [
+      {
+        "text": "They start a dance craze that spreads like wildfire",
+        "next": "danceCraze"
+      },
+      {
+        "text": "They become viral TikTok celebrities, distracted from battle",
+        "next": "tiktokCelebrities"
+      }
+    ]
+  },
+  "blendInWithRomans": {
+    "text": "You decide to blend in, adopting Roman attire and avoiding any attention. \n\nAs the days pass, you witness the slow collapse of the empire from the inside. Corruption spreads through the Senate, the army weakens, and Rome’s enemies close in. \n\nDespite your best efforts, you're still stuck in a doomed civilization. Could TikTok be the spark that truly brings Rome to its knees?",
+    "choices": [
+      {
+        "text": "Join a political faction to influence events",
+        "next": "joinPoliticalFaction"
+      },
+      {
+        "text": "Start a covert TikTok movement",
+        "next": "startTikTokMovement"
+      }
+    ]
+  },
+  "danceCraze": {
+    "text": "The soldiers become completely absorbed in their TikTok dance craze. What begins as harmless fun spreads to the Roman Senate, and soon enough, the empire is so distracted by entertainment that no one notices the impending invasion. \n\nRome falls, not with a sword, but with a viral dance.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "goodEnding"
+      }
+    ]
+  },
+  "tiktokCelebrities": {
+    "text": "The soldiers’ obsession with becoming TikTok stars distracts them from their duties. Battles are lost, and the barbarians at the gates see their chance. Rome crumbles, and you realize the gravity of what you’ve done.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "goodEnding"
+      }
+    ]
+  },
+  "joinPoliticalFaction": {
+    "text": "You join a faction vying for power within the crumbling empire. Using your knowledge of the future, you influence events, subtly guiding the fate of Rome. But despite your best efforts, the collapse is inevitable.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "badEnding"
+      }
+    ]
+  },
+  "startTikTokMovement": {
+    "text": "Despite your initial hesitation, you begin to introduce TikTok to Roman society. \n\nWhat starts as a minor trend soon spirals into a full-blown cultural phenomenon. People become so obsessed with dancing, lip-syncing, and pranking that they forget to defend their crumbling empire. \n\nAs barbarians storm the gates, the Senate is too busy watching TikToks to respond. Rome falls in a blaze of social media glory.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "badEnding"
+      }
+    ]
+  },
+  "joinSurvivorGroup": {
+    "text": "You join a group of weary survivors, showing them TikToks to lighten the mood. \n\nBut things quickly spiral out of control. People become obsessed with your phone, fighting over it, and society’s last semblance of order crumbles into chaos.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "badEnding"
+      }
+    ]
+  },
+  "keepPhoneHidden": {
+    "text": "You decide to keep your phone hidden, wary of the chaos it might bring. \n\nYou help the survivors rebuild what little they can, but even without your technology, society remains fragile, and danger is ever-present.",
+    "choices": [
+      {
+        "text": "Help them rebuild society",
+        "next": "helpRebuild"
+      },
+      {
+        "text": "Use your phone secretly to gain power",
+        "next": "usePhoneSecretly"
+      }
+    ]
+  },
+  "helpRebuild": {
+    "text": "Despite your best efforts, things continue to fall apart. The survivors struggle to adapt, and your attempts at rebuilding society are in vain. Soon enough, chaos reigns once again.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "goodEnding"
+      }
+    ]
+  },
+  "usePhoneSecretly": {
+    "text": "You begin to use your phone in secret, subtly influencing events and gaining power. But the more you intervene, the more things seem to unravel around you. The survivors grow suspicious, and you can feel the tension rising.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "goodEnding"
+      }
+    ]
+  },
+  "shareModernLife": {
+    "text": "You show the Egyptians videos of skyscrapers, airplanes, and cars. They are amazed and quickly try to replicate your technology, but they fail miserably, leading to confusion and chaos in the empire.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "badEnding"
+      }
+    ]
+  },
+  "showMemes": {
+    "text": "You decide to show them funny memes. The Egyptians are initially confused, but soon they are laughing uncontrollably. \n\nThe memes become so popular that they start a cultural revolution, distracting everyone from their daily duties and plunging the empire into disarray.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "goodEnding"
+      }
+    ]
+  },
+  "tryToEscape": {
+    "text": "You attempt to escape Cleopatra's palace, but you're quickly caught by her soldiers. They mistake you for a spy, and you're executed in the streets.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "badEnding"
+      },
+      {
+        "text": "Rebirth in another time",
+        "next": "rebirth"
+      }
+    ]
+  },
+  "rebirth": {
+    "text": "You feel the pull of time and space as your soul is reborn. When you open your eyes, you're no longer in ancient Egypt. Instead, you find yourself in 546 BC, a time of mystery and wonder. The sun feels warmer here, and the air is filled with the scent of new possibilities.",
+    "choices": [
+      {
+        "text": "Explore the Pyramids",
+        "next": "visitPyramids"
+      },
+      {
+        "text": "Explore a nearby village",
+        "next": "visitSmallVillage"
+      }
+    ]
+  },
+  "visitSmallVillage": {
+    "text": "You visit a small village and they're shocked by your futuristic appearance, taking you prisoner. But you break free and make a run for it.",
+    "choices": [
+      {
+        "text": "Go to the church",
+        "next": "visitChurch"
+      },
+      {
+        "text": "Run away into the desert",
+        "next": "visitDesert"
+      }
+    ]
+  },
+  "visitChurch": {
+    "text": "You go to the local church and talk to the priest to confess your sins, but he shockingly reveals that he's been aware of you and your prophecy. He tells you that you're an immortal Harbringer of Destruction & Death and that your path is already determined.",
+    "choices": [
+      {
+        "text": "You attack the priest and run away.",
+        "next": "visitDesert"
+      },
+      {
+        "text": "You accept your role, and go to train in Mongolia.",
+        "next": "trainInMongolia"
+      }
+    ]
+  },
+  "visitDesert": {
+    "text": "You run away into the desert but get eaten by a 600 foot long ancient desert worm.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "fakeIntro"
+      }
+    ]
+  },
+  "visitPyramids": {
+    "text": "You approach the towering pyramids and begin to climb. The view from the top is breathtaking, but something feels off. The sun is brighter here, almost blinding.",
+    "choices": [
+      {
+        "text": "Look at the sun for too long",
+        "next": "lookAtSun"
+      },
+      {
+        "text": "Slip and fall down the pyramid",
+        "next": "slipAndFall"
+      }
+    ]
+  },
+  "lookAtSun": {
+    "text": "You stare at the sun for too long, and your vision begins to blur. Suddenly, a beam of light surrounds you, and you feel yourself being lifted off the ground. \n\nWhen you open your eyes, you're inside an alien spaceship. Beings of pure light surround you, their faces unreadable.",
+    "choices": [
+      {
+        "text": "Steal the aliens' weapon",
+        "next": "stealAlienWeapons"
+      },
+      {
+        "text": "Reason with the aliens",
+        "next": "reasonWithAliens"
+      }
+    ]
+  },
+  "slipAndFall": {
+    "text": "You lose your footing and tumble down the side of the pyramid. As you fall, everything goes black. When you awaken, you're in a strange new world.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "goodEnding"
+      }
+    ]
+  },
+  "stealAlienWeapons": {
+    "text": "You grab a glowing blade from the alien ship's weapon rack. In a swift move, you strike down one of the beings. \n\nBefore it dies, it whispers that you're not who you think you are—that your destiny is far greater.",
+    "choices": [
+      {
+        "text": "Explore the galaxy",
+        "next": "stolenExploreGalaxy"
+      },
+      {
+        "text": "Travel to Mongolia and train",
+        "next": "trainInMongolia"
+      }
+    ]
+  },
+  "reasonWithAliens": {
+    "text": "You try to reason with the aliens, explaining your situation. They regard you with interest and tell you that you're not an ordinary human—you are the Harbinger of Collapse, destined to bring ruin to every empire you touch.",
+    "choices": [
+      {
+        "text": "Steal their weapon anyway",
+        "next": "stealAlienWeapons"
+      },
+      {
+        "text": "Accept your fate",
+        "next": "acceptFate"
+      }
+    ]
+  },
+  "acceptFate": {
+    "text": "The aliens reveal your destiny as the Harbinger of Collapse. You feel the weight of your role and, after deep contemplation, accept it. \n\nNow, with the knowledge of your purpose, you begin your journey through time, ready to bring the inevitable fall to every empire you encounter.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "trueEnding"
+      }
+    ]
+  },
+  "stolenExploreGalaxy": {
+    "text": "You take control of the alien ship, flying across the stars. \n\nAs you explore different worlds, you witness the rise and fall of countless civilizations, realizing that no matter where you go, collapse is inevitable.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "badEnding"
+      }
+    ]
+  },
+  "badEnding": {
+    "text": "You completed a bad ending...",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "intro"
+      }
+    ]
+  },
+  "goodEnding": {
+    "text": "You completed a good ending!",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "intro"
+      }
+    ]
+  },
+  "trueEnding": {
+    "text": "You completed the true ending!",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "intro"
+      }
+    ]
+  },
+  "trainInMongolia": {
+    "text": "You travel to ancient Mongolia, seeking to train under the great khans. \n\nAs you learn their ways, you feel the pull of your destiny. Empires rise and fall around you, but you always find yourself at the center of it.",
+    "choices": [
+      {
+        "text": "Restart",
+        "next": "goodEnding"
+      }
+    ]
+  }
+}
