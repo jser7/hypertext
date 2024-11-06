@@ -10,6 +10,9 @@ const About = () => {
                 <img src="/images/ersiteswhite.png" alt="E-R Sites Logo" class="mx-auto w-48 h-auto mb-8 hidden dark:block"></img>
                 <h2 class="text-4xl font-bold text-gray-800 dark:text-white">Hypertext Story Project</h2>
                 <p class="mt-4 text-lg text-gray-600 dark:text-gray-100">This website, Hypertext Story, is an interactive story website where users are allowed to traverse through an engaging story in a number of unique ways that the user can choose.</p>
+                <div class="inline-flex items-center justify-center w-full">
+                    <hr class="w-96 h-1 mt-8 bg-gray-200 border-0 rounded dark:bg-gray-800"></hr>
+                </div>
                 <h3 class="text-2xl font-bold text-gray-700 dark:text-gray-200 mt-8">Development Projects</h3>
                 <p class="mt-4 text-md text-gray-600 dark:text-gray-100">E-R Sites is a development project consisting of multiple high-quality websites that I run, focusing on creating sleek, vibrant, and functional user experiences.</p>
             </div>

@@ -11,15 +11,15 @@ const Home = () => {
         </div>
 
         <div class="relative container mx-auto px-4 max-w-3xl">
-        <h2 class="text-6xl font-extrabold text-gray-900 leading-tight mb-6 font-playfair dark:text-gray-100">
+        <h2 class="text-6xl font-extrabold text-gray-900 leading-tight mb-6 font-playfair dark:bg-gradient-to-br from-green-500 to-pink-400 via-orange-400 text-transparent bg-clip-text">
             A story for the ages.
         </h2>
         <p class="text-lg text-gray-900 mb-10 font-lora dark:text-gray-300">
-            Explore and immerse yourself in the interactive story of "TikTok: The Harbringer of Death" now.
+            Explore and immerse yourself in the interactive story of "TikTok: The Harbringer of <span className="bg-gradient-to-br from-red-300 to-orange-600 text-transparent bg-clip-text">Death</span>" now.
         </p>
 
         <div class="flex justify-center space-x-4">
-            <Link to="/story" class="bg-yellow-500 text-gray-900 py-3 px-8 rounded-full shadow-lg text-lg font-medium hover:bg-yellow-400 transition duration-300 ease-in-out">
+            <Link to="/story" class="bg-gradient-to-r from-pink-500 to-orange-400 text-gray-900 py-3 px-8 rounded-full shadow-lg text-lg font-medium hover:bg-yellow-400 transition duration-300 ease-in-out">
             Begin Reading
             </Link>
             <Link to="/about" class="bg-transparent border-2 border-gray-600 text-gray-900 py-3 px-8 rounded-full shadow-lg text-lg font-medium hover:text-white transition duration-300 ease-in-out hover:bg-gray-700 dark:text-gray-100 dark:border-gray-400 dark:hover:bg-gray-600">
